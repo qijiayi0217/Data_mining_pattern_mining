@@ -1,0 +1,10 @@
+import sqlite3
+
+f=open(r'/Users/qijiayi/Desktop/data_mining/proj1/adult.data.txt')
+a=f.read()
+f.close()
+space=""
+list1=list(a)
+list2=space.join(list1)
+list3=list2.split('\n')
+print list1
